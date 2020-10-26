@@ -28,6 +28,16 @@ namespace Catastrophe
             {
                 VirtualInputManager.Instance.MoveLeft = false;
             }
+
+            // Jump with the space bar
+            if (Input.GetKey(KeyCode.Space))
+            {
+                VirtualInputManager.Instance.Jump = true;
+            }
+            else
+            {
+                VirtualInputManager.Instance.Jump = false;
+            }
         }
     }
 }

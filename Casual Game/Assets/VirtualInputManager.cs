@@ -22,5 +22,7 @@ namespace Catastrophe
 
         public bool MoveRight;
         public bool MoveLeft;
+        public bool Jump;
+
     }
 }
